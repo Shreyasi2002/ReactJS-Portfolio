@@ -1,0 +1,146 @@
+#nav-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent;
+    /* overflow: hidden; */
+    /* opacity: 0.9; */
+    color: #000;
+}
+
+.navigation {
+    /* position: relative;
+    top: 0; */
+    /* width: 100%;  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: (1, 0, 0, 1);
+  color: #818181;
+  /* top: 0;
+  position: fixed; */
+}
+
+.logo {
+  padding-left: 10px;
+  padding-top: 5px;
+  height: 60px;
+}
+
+.logo-hover {
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.logo-hover:hover {
+    opacity: 1;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  color: #f1f1f1;
+}
+
+.nav-items > li {
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.nav-items li:hover,
+.nav-items li:focus {
+    background: #48C8F0;
+  -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+
+.nav-items .icon-menu {
+    color: #f1f1f1;
+    position: relative;
+    object-fit: contain;
+    display: block;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-items li{
+    display: none;
+  }
+  .nav-items li.icon-menu {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .nav-items li.icon-menu {
+    display: none;
+  }
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow-y: hidden;
+  transition: 0.8s;
+}
+
+@media screen and (min-width: 1001px) {
+    .nav-items li.icon-menu {
+      display: none;
+    }
+    .overlay{
+        height: 0%;
+        overflow-y: hidden;
+        z-index: 0;
+    }
+  }
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay li {
+  padding: 8px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay li:hover,
+.overlay li:focus {
+    color: #48C8F0;
+    opacity: 0.7;
+    -webkit-text-fill-color: #48C8F0;
+    -webkit-color-clip: text; 
+}
+
+
