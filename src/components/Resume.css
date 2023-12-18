@@ -1,0 +1,28 @@
+.resume-header{
+    padding-top: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.resume-header > h1{
+    font-size: 60px;
+    font-weight:700;
+    letter-spacing: 6px;
+    background: linear-gradient(140deg, #48C8F0 22.74%, rgba(200, 200, 240, 0.00) 86.68%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+
+@media screen and (max-width: 550px) {
+    .resume-header > h1{
+        padding-top: 12%;
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+}
+
+.resume-content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
