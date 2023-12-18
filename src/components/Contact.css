@@ -1,0 +1,92 @@
+.contact-me{
+    padding-bottom: 5%;
+    overflow-y: hidden;
+}
+
+.contact-header{
+    margin-top: 15%;
+    /* text-align: center; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.contact-header > #hr{
+    border-bottom: 1px solid #48C8F0;
+    height: 2px;
+}
+
+.contact-header #bold-sec-hr{
+    width: 150px;
+    height: 7px;
+    background-color: #48C8F0;
+    /* float: left; */
+    border: 1px solid #48C8F0;
+    clip-path: polygon(0px -1px, 100% -1px, calc(100% - 10px) 100%, 10px 100%);
+}
+
+.contact-header > h1{
+    font-size: 30px;
+    font-weight:600;
+    letter-spacing: 4px;
+    color :white;
+}
+
+@media screen and (max-width: 550px) {
+    .contact-header > h1{
+        padding-top: 10%;
+    }
+}
+
+.contact-content{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.ui.button{
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%);
+    border: none;
+    transition: transform .5s; /* Animation */
+    color: black;
+    padding: 18px 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 400;
+    background-color: #48C8F0;
+}
+
+.icon-button{
+    padding-left: 4px;
+    padding-right: 8px;
+}
+
+.ui.button:hover{
+    transform: scale(1.07);
+    background-color: #48C8F0;
+}
+
+.ui.form .field>label{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ui.form .field .ui.input input, .ui.form .fields .field .ui.input input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.ui.form textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    height: 150px;
+}
