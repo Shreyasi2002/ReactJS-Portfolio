@@ -71,7 +71,7 @@ Viola!! Now you have your portfolio up and running 🥳
 
 If you like this template, support me by buying me a coffee :)
 
-<a href="https://www.buymeacoffee.com/shreyasimandal" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee"></a>
+<a href="https://www.buymeacoffee.com/shreyasimandal" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="55px"></a>
 
 
 
