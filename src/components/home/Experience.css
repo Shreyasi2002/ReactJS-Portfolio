@@ -1,0 +1,119 @@
+.exp-header{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.exp-header > h1{
+    font-size: 60px;
+    font-weight:700;
+    letter-spacing: 6px;
+    background: linear-gradient(140deg, #48C8F0 22.74%, rgba(200, 200, 240, 0.00) 86.68%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .exp-header > h1{
+        padding-top: 12%;
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+}
+
+.exp-content{
+    margin: 5%;
+    margin-top: 0%;
+    /* padding: auto; */
+}
+
+.exp-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #f1f1f1;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.exp-column1{
+    flex: 40%;
+    padding-left: 5%;
+    /* padding-right: 1%; */
+}
+
+.exp-column2{
+    flex: 60%;
+    padding-right: 5%;
+}
+
+.exp-column1 > #hr{
+    border-bottom: 1px solid #48C8F0;
+    height: 2px;
+    width: 250px;
+}
+
+.exp-column1 #bold-sec-hr{
+    width: 150px;
+    height: 7px;
+    background-color: #48C8F0;
+    /* float: left; */
+    border: 1px solid #48C8F0;
+    clip-path: polygon(0px -1px, 100% -1px, calc(100% - 10px) 100%, 10px 100%);
+}
+
+.exp-column2 > img{
+    width: 100%;
+    transition: transform .2s;
+}
+
+.exp-column2 > img:hover{
+    transform: scale(1.1);
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+}
+
+.exp-column-h6{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.exp-prof-name{
+    color: #48C8F0;
+    font-size: 18px;
+}
+
+.exp-date{
+    font-weight: 200;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+.exp-description{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .exp-column1, .exp-column2{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      flex: 100%;
+    }
+
+    /* .exp-column3{
+        padding-top: 5%;
+    }
+
+    .exp-column3 > img{
+        height: 100%;
+    } */
+    .exp-row{
+        display: flex;
+        flex-flow: column;
+    }
+}
