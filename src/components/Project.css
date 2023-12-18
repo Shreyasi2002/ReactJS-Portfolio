@@ -1,0 +1,137 @@
+.pro-header{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.pro-header > h1{
+    font-size: 60px;
+    font-weight:700;
+    letter-spacing: 6px;
+    background: linear-gradient(140deg, #48C8F0 22.74%, rgba(200, 200, 240, 0.00) 86.68%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .pro-header > h1{
+        padding-top: 12%;
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+}
+
+.pro-content{
+    margin: 5%;
+    margin-top: 0%;
+    /* padding: auto; */
+}
+
+.pro-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #f1f1f1;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.pro-column1{
+    flex: 40%;
+    padding-left: 5%;
+    /* padding-right: 1%; */
+}
+
+.pro-column2{
+    flex: 50%;
+    padding-right: 5%;
+}
+
+.pro-column{
+    flex: 10%;
+}
+
+.pro-column1 > #hr{
+    border-bottom: 1px solid #48C8F0;
+    height: 2px;
+    width: 250px;
+}
+
+.pro-column1 #bold-sec-hr{
+    width: 150px;
+    height: 7px;
+    background-color: #48C8F0;
+    /* float: left; */
+    border: 1px solid #48C8F0;
+    clip-path: polygon(0px -1px, 100% -1px, calc(100% - 10px) 100%, 10px 100%);
+}
+
+.pro-column2 > img{
+    width: 100%;
+    transition: transform .2s;
+}
+
+.pro-column2 > img:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.pro-column-h6{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.pro-description{
+    font-size: 16px;
+    padding-bottom: 3%;
+}
+
+@media screen and (max-width: 1000px) {
+    .pro-column1, .pro-column2{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      flex: 100%;
+    }
+    .pro-row{
+        display: flex;
+        flex-flow: column;
+    }
+    .pro-column1{
+        order: 1;
+    }
+    .pro-column2{
+        order: 2;
+    }
+    .pro-column{
+        flex: 0%;
+    }
+}
+
+.pro-button{
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%);
+    background-color: #48C8F0;
+    border: none;
+    transition: transform .5s; /* Animation */
+    color: black;
+    padding: 18px 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.pro-button:hover{
+    transform: scale(1.07);
+}
+
+.icon-button{
+    padding-left: 8px;
+    padding-right: 4px;
+}
