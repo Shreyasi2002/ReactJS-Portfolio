@@ -10,9 +10,10 @@ import Swal from 'sweetalert2';
 import ScrollReveal from 'scrollreveal';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
-const SERVICE_ID = "service_6tme1p8";
-const TEMPLATE_ID = "template_j2o1431";
-const PUBLIC_KEY = "8PioL1O1MeiFqXYhs";
+// Get these from https://www.emailjs.com/
+const SERVICE_ID = "";
+const TEMPLATE_ID = "";
+const PUBLIC_KEY = "";
 
 class Contact extends React.Component {
     refs = React.createRef();
