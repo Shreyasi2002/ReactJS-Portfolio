@@ -1,0 +1,134 @@
+.vid-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.vid-container > img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 2;
+}
+
+
+.vid-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.vid-content > h1{
+    font-size: 77px;
+    font-weight:700;
+    letter-spacing: 4px;
+    background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    animation: colorchange 10s infinite;
+    -webkit-animation: colorchange 10s infinite;
+    -moz-animation: colorchange 10s infinite;
+    -o-animation: colorchange 10s infinite;
+    -ms-animation: colorchange 10s infinite;
+}
+
+@-webkit-keyframes colorchange {
+    0% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    50% { 
+        background: #F7F9FA; 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    100% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+  }
+
+@-moz-keyframes colorchange {
+    0% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    50% { 
+        background: #F7F9FA; 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    100% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+  }
+
+  @-ms-keyframes colorchange {
+    0% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    50% { 
+        background: #F7F9FA; 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    100% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+  }
+
+  @-o-keyframes colorchange {
+    0% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    50% { 
+        background: #F7F9FA; 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    100% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+  }
+
+@keyframes colorchange {
+    0% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    50% { 
+        background: #F7F9FA; 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+    100% { 
+        background: linear-gradient(136deg, #153944 -36.54%, rgba(169, 200, 210, 0.54) 34.67%, rgba(3, 27, 34, 0.00) 90.33%); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .vid-content > h1{
+        font-size: 67px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+}
+
