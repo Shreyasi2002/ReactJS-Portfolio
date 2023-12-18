@@ -29,7 +29,7 @@ class About extends React.Component {
                 <div className='row'>
                     <div className='header-start column' ref="box1">
                         <h6>ABOUT ME</h6>
-                        <p>A one liner about ypurself ...</p>
+                        <p>A one liner about yourself ...</p>
                     </div>
                     <div className='column'>
                         {/* empty */}
