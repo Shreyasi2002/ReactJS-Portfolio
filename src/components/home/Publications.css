@@ -1,0 +1,37 @@
+.publication-header{
+    margin-top: 10%;
+    /* text-align: center; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.publication-header > #hr{
+    border-bottom: 1px solid #48C8F0;
+    height: 2px;
+}
+
+.publication-header #bold-sec-hr{
+    width: 150px;
+    height: 7px;
+    background-color: #48C8F0;
+    /* float: left; */
+    border: 1px solid #48C8F0;
+    clip-path: polygon(0px -1px, 100% -1px, calc(100% - 10px) 100%, 10px 100%);
+}
+
+.publication-header > h4{
+    font-size: 30px;
+    font-weight:600;
+    letter-spacing: 4px;
+    color: #48C8F0;
+}
+
+.publication-content{
+    /* padding-top: 3%; */
+    padding-left: 8%;
+    margin-bottom: 10%;
+    padding-right: 8%;
+    color: #f1f1f1;
+    font-size: 16px;
+}
