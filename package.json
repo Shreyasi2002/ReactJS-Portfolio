@@ -1,6 +1,6 @@
 {
-    "homepage": "https://shreyasi2002.github.io",
-    "name": "shreyasi-portfolio",
+    "homepage": "www.example.com",
+    "name": "portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
