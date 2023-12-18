@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" 
+    xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+<url>
+    <loc>https://www.example.com/</loc>
+    <priority>1.00</priority>
+</url>
+<url>
+    <loc>https://www.example.com/page1</loc>
+    <priority>0.95</priority>
+</url>
+<url>
+    <loc>https://www.example.com/page2</loc>
+    <priority>1.00</priority>
+</url>
+<url>
+    <loc>https://www.example.com/page2</loc>
+    <priority>1.00</priority>
+</url>
+<url>
+    <loc>https://www.example.com/page3</loc>
+    <priority>1.00</priority>
+</url>
+<url>
+    <loc>https://www.example.com/page4</loc>
+    <priority>0.90</priority>
+</url>
+<url>
+    <loc>https://www.example.com/page5</loc>
+    <priority>0.80</priority>
+</url>
+<url>
+    <loc>https://www.example.com/page7</loc>
+    <priority>0.60</priority>
+</url>
+
+</urlset>
