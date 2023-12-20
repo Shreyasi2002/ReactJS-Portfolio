@@ -1,7 +1,8 @@
 # ReactJS Portfolio Template
 
 This template is based on my personal portfolio found here - https://shreyasi2002.github.io
-NOTE: Do not forget to mention my name if you are using this template. I have worked hard for this :) 
+
+### **NOTE: Do not forget to mention my name if you are using this template. I have worked hard for this :)**
 
 
 <img src="Images/background.gif" width="100%"/>
@@ -11,7 +12,7 @@ _**Note** : I want to acknowledge that the template I have created is not perfec
 ## Steps to Follow
 ### Clone the repository and move to the correct folder
 ```bash
-git clone https://github.com/Shreyasi2002/ReactJS-Portfolio.git
+git clone https://github.com/Shreyasi2002/ReactJS-Portfolio.git 
 cd ReactJS-Portfolio
 ```
 ### Install the dependencies and packages
