@@ -4,8 +4,7 @@ This template is based on my personal portfolio found here - https://shreyasi200
 
 ### **NOTE: Do not forget to mention my name if you are using this template. I have worked hard for this :)**
 
-
-<img src="Images/background.gif" width="100%"/>
+<img width="100%" alt="background" src="https://github.com/Shreyasi2002/ReactJS-Portfolio/assets/75871525/d1fffe8d-0458-4c2b-9a8e-c681dfd85878">
 
 _**Note** : I want to acknowledge that the template I have created is not perfect and undoubtedly has areas that can be enhanced. I invite all contributors to share their insights and suggestions for improvements. Let's work collaboratively to refine this template :)_
 
@@ -68,7 +67,8 @@ npm run deploy
 Next, you have to -
 1. Navigate to Settings > Pages
 2. Make sure you have chosen `gh-pages` as tha branch to build your website
-   <img src="Images/build.png" width="60%"/>
+   <img width="785" alt="build" src="https://github.com/Shreyasi2002/ReactJS-Portfolio/assets/75871525/afe05b7a-f52b-4300-8fee-2eef627ee07c">
+
 
 Viola!! Now you have your portfolio up and running 🥳
 
